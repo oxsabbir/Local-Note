@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    font-size: 20px;
+    background-color: black;
+    /* background-color: aquamarine; */
+    color:  white;
+}
+
+.left-side {
+    /* background-color: red; */
+    /* position: relative; */
+    float: left;
+    width: 35%;
+    border-right: 3px solid white;
+    height: 100vh;
+}
+.right-side {
+    float: right;
+    width: 64%;
+}
+
+.button , .backbtn {
+    padding: 10px;
+    /* width: 70%; */
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.386);
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+.note-display{
+    background-color: black;
+    overflow: auto;
+    height: 83.8vh;
+    border-top: 2px solid white;
+    
+}
+
+
+
+
+h3{ 
+    text-align: center;
+    padding: 5px;
+    /* border-bottom: 2px solid black; */
+    margin-bottom: 10px;
+}
+.delete{
+    width: 20%;
+    padding: 10px;
+    float: right;
+    position: relative;
+    bottom: 45px;
+}
+.notes {
+    /* position: absolute; */
+    /* width: 30%; */
+    font-size: 90%;
+    padding: 7px;
+
+}
+.add {
+    /* background-color: aqua; */
+    position: relative;
+    padding: 10px;
+
+    height: 50px;
+    border-bottom: 3px solid white;
+}
+.right-head {
+    /* background-color: red; */
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+    border-bottom: 3px solid white;
+
+}
+.details{
+    background-color: rgb(11, 28, 3);
+    color: white;
+    float: left;
+    /* position: relative; */
+    border: 1px solid white;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    pointer-events: none; 
+}
+.date {
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 2px;
+    padding: 5px;
+}
+.everynote{
+    width: 98%;
+    padding: 3px;
+    height: 100%;
+}
+
+.head {
+    background-color: rgb(11, 28, 3);
+  
+
+    color: white;
+}
+.head h4 {
+    padding: 5px;
+    margin-left: 5px;
+}
+.content {
+    border-top: 2px solid  white;
+    /* background-color: red; */
+    width: 93%;
+    padding: 25px;
+    height: 77.9vh;
+    font-family:cursive;
+    font-size: 35px;
+    border-left: 3px solid white;
+}
+.content-area {
+    overflow: auto;
+}
+.content-btn{
+    width: 100%;
+    height: 7vh;
+    border-left: 3px solid white;
+}
+
+.button-area {
+    width: 100%;
+}
+.name {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    width: 260px;
+    text-decoration: wavy;
+
+}
+.time{
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 150px;
+    text-decoration: wavy;
+}
+.del, .edit{
+    display: inline-block;
+    width: 90px;
+    font-size: 14px;
+    margin-top: 9px;
+    padding: 7px;
+}
+
+.edit {
+    margin-left: -130px;
+}
+.del{
+    margin-left: -30px;
+}
+
+
+.allbutton {
+    width: 10%;
+    float: right;
+}
+.hidden {
+    display: none;
+}
+.input-start{
+    border: 2px solid white;
+    width: 650px;
+    height: 80vh;
+    float: right;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    transition: width 1s , background-color 3s;
+    
+}
+
+.input-start:hover{
+    background-color: rgb(80, 77, 77);
+}
+
+.title{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#noteArea{
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.submit{
+    padding: 8px;
+    /* width: 70%; */
+    width: 140px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.386);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.cancel{
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.386);
+    color: white;
+    cursor: pointer;
+}
+.pages{
+    width: 100%;
+    height: 130px;
+}
+.editContent {
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 550px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+    height: 500px;
+}
+
+.editName {
+    padding: 10px;
+    margin-left: 25px;
+    width: 350px;
+    color: white;
+    position: relative;
+    top: -7px;
+    font-size: 20px;
+    background-color: black;
+    border : 2px solid white;
+}

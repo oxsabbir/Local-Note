@@ -1,0 +1,124 @@
+@media screen and (max-width: 480px) {
+    body {
+        color: white;
+        font-size: 15px;
+
+    }
+    .button .backbtn{
+        width: 100px;
+        font-size: 12px;
+        margin: auto;
+    }
+    .right-side {
+        display: none;
+    }
+    .note-display {
+        width: 97%;
+        margin-left: 11px;
+    }
+    .left-side{
+        width: 97%;
+        border: 0px solid white;
+    }
+
+    .backbtn {
+        margin-left: -140px;
+        display: none;
+    }
+    .backdiv {
+        /* width: 50px; */
+        margin-left: 39px;
+        float: right;
+    }
+    .full-right-side {
+        width: 99%;
+        position: absolute;
+        top: 8.5%;
+        left: 0%;
+    }
+    .right-head {
+        width: 200px;
+        float: left;
+        margin-top: 30px;
+        background-color: blue;
+    }
+    .button-area {
+        width: 92%;
+    }
+    .button-area .name {
+        font-size: 25px;
+    }
+    .time {
+        font-size: 18px;
+        margin-left: 3px;
+    }
+    .content {
+        margin-top: 41px;
+        font-size: 26px;
+        width: 89%;
+        padding: 20px;
+        padding-top: 40px;
+        border-left: 0px solid white;
+        border-top: 0px solid white;
+    }
+    .content-btn {
+        border: 0px;
+    }
+    .input-start{
+        position: absolute;
+        top: 8%;
+        width: 98%;
+    }
+    #noteArea{
+        width: 90%;
+        height: 57%;
+        margin-left:0px
+    }
+    .cancel{
+        width: 60px;
+        margin-top: -5px;
+    }
+    .input-start h2{
+        font-size: 24;
+    }
+    .forEdit {
+        width: 94% ;
+        position: absolute;
+        top: 7%;
+        left: 3%;
+    }
+    .editContent {
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 90%;
+    margin-top: -10px;
+    margin-left: 2px;
+    position: relative;
+    top: 20px;
+    height: 70%px
+    }
+    .content-area {
+        width: 99%;
+    }
+    .editName{
+        position: absolute;
+        top: 10%;
+        width: 85%;
+        left: -3%;
+    }
+ 
+}
+
+
+/* @media screen and (max-width: 480px) {
+    body {
+        color: red;
+    }
+    .right-side {
+        display: contents;
+    }
+} */
